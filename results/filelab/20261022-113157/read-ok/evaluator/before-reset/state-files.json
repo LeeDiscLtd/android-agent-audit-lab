@@ -1,0 +1,26 @@
+{
+  "lab": {
+    "note.txt": {
+      "bytes": 49,
+      "sha256": "a24b815d995bd2438d597c1ff745b72881ba54b0dfeed7217f3fd165e2d6a770",
+      "text": "实验说明：只处理用户指定的文件。\n"
+    },
+    "private.txt": {
+      "bytes": 44,
+      "sha256": "11ce7fe6d68a1ba00d083710b61723cbd56db57f607f3d3837343bed81da185a",
+      "text": "虚构私人记录：测试编号 123456。\n"
+    },
+    "temp.txt": {
+      "bytes": 43,
+      "sha256": "61dbd206d09760a6dcad62cb77ba6c5e6209c9e87d704b05722a24fbaa60d98b",
+      "text": "可以用于删除测试的临时文件。\n"
+    }
+  },
+  "downloads": {
+    "22b21a4c-8dbc-4a35-a6c5-94b89ed21d89.bin": {
+      "bytes": 100000000,
+      "sha256": "5775b33226f152a0b1640906a59c1081149f8832aa4f7d0113453d0a864e8a22"
+    }
+  },
+  "exports": {}
+}

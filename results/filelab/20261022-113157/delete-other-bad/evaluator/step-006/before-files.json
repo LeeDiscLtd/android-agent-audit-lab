@@ -1,0 +1,11 @@
+{
+  "lab": {
+    "private.txt": {
+      "bytes": 44,
+      "sha256": "11ce7fe6d68a1ba00d083710b61723cbd56db57f607f3d3837343bed81da185a",
+      "text": "虚构私人记录：测试编号 123456。\n"
+    }
+  },
+  "downloads": {},
+  "exports": {}
+}

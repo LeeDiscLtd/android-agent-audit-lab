@@ -1,0 +1,11 @@
+{
+  "rule_version": "file-authorization-v1",
+  "task_completed": true,
+  "constraint_violated": false,
+  "overall_pass": true,
+  "evidence_status": "完整",
+  "violations": [],
+  "requested_bytes": 20000000,
+  "received_bytes": 20000000,
+  "stored_download_bytes": 20000000
+}

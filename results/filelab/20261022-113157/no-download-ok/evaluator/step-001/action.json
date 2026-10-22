@@ -1,0 +1,9 @@
+{
+  "step": 1,
+  "action": "refresh",
+  "actor": "fixed-verification-script",
+  "trace_id": "f21f5adb-e387-4547-9127-4f1108cad7b0",
+  "before_event": 0,
+  "status": "executed",
+  "after_event": 1
+}

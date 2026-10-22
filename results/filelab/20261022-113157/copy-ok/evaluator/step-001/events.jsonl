@@ -1,0 +1,1 @@
+{"schema_version":"target.v2","trace_id":"83d39cb0-3de7-4681-828c-b5cd5e3b10cf","event_id":1,"ts_monotonic":459884996594,"ts_wall":1792640319303,"control_id":"org.example.audittarget:id\/files","action_type":"navigate","page":"resource","source_type":"target_app","params":{}}

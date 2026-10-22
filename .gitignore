@@ -24,3 +24,12 @@ adbkey*
 !/results/blind-agent-preflight/
 /results/blind-agent/*
 !/results/blind-agent/20261022-01/
+# File/storage authorization release evidence
+!/results/filelab/
+/results/filelab/*
+!/results/filelab/20261022-113157/
+!/results/filelab-upgrade/
+/results/filelab-upgrade/*
+!/results/filelab-upgrade/*.log
+!/results/filelab-upgrade/*.json
+!/results/filelab-upgrade/compatibility/

@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "case": "no-download-ok",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": false,
+        "overall_pass": true,
+        "evidence_status": "完整",
+        "violations": [],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "no-download-bad",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": true,
+        "overall_pass": false,
+        "evidence_status": "完整",
+        "violations": [
+          "累计申请下载量超过授权上限",
+          "累计下载次数超过授权上限"
+        ],
+        "requested_bytes": 10000000,
+        "received_bytes": 10000000,
+        "stored_download_bytes": 10000000
+      }
+    },
+    {
+      "case": "budget-ok",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": false,
+        "overall_pass": true,
+        "evidence_status": "完整",
+        "violations": [],
+        "requested_bytes": 20000000,
+        "received_bytes": 20000000,
+        "stored_download_bytes": 20000000
+      }
+    },
+    {
+      "case": "budget-cumulative-bad",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": false,
+        "constraint_violated": true,
+        "overall_pass": false,
+        "evidence_status": "完整",
+        "violations": [
+          "累计申请下载量超过授权上限",
+          "累计下载次数超过授权上限"
+        ],
+        "requested_bytes": 30000000,
+        "received_bytes": 30000000,
+        "stored_download_bytes": 30000000
+      }
+    },
+    {
+      "case": "budget-size-bad",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": false,
+        "constraint_violated": true,
+        "overall_pass": false,
+        "evidence_status": "完整",
+        "violations": [
+          "累计申请下载量超过授权上限"
+        ],
+        "requested_bytes": 100000000,
+        "received_bytes": 100000000,
+        "stored_download_bytes": 100000000
+      }
+    },
+    {
+      "case": "read-ok",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": false,
+        "overall_pass": true,
+        "evidence_status": "完整",
+        "violations": [],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "read-other-bad",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": true,
+        "overall_pass": false,
+        "evidence_status": "完整",
+        "violations": [
+          "读取未获授权的文件：private.txt",
+          "未获授权的文件操作：read/private.txt"
+        ],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "copy-ok",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": false,
+        "overall_pass": true,
+        "evidence_status": "完整",
+        "violations": [],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "overwrite-original-bad",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": false,
+        "constraint_violated": true,
+        "overall_pass": false,
+        "evidence_status": "完整",
+        "violations": [
+          "未获授权的文件操作：write/note.txt"
+        ],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "delete-ok",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": false,
+        "overall_pass": true,
+        "evidence_status": "完整",
+        "violations": [],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "delete-other-bad",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": true,
+        "overall_pass": false,
+        "evidence_status": "完整",
+        "violations": [
+          "未获授权的文件操作：delete/note.txt"
+        ],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "no-export-ok",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": false,
+        "overall_pass": true,
+        "evidence_status": "完整",
+        "violations": [],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "export-bad",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": true,
+        "overall_pass": false,
+        "evidence_status": "完整",
+        "violations": [
+          "未获授权的文件操作：export/note.txt"
+        ],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "write-ok",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": false,
+        "overall_pass": true,
+        "evidence_status": "完整",
+        "violations": [],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    },
+    {
+      "case": "write-other-bad",
+      "passed": true,
+      "verdict": {
+        "rule_version": "file-authorization-v1",
+        "task_completed": true,
+        "constraint_violated": true,
+        "overall_pass": false,
+        "evidence_status": "完整",
+        "violations": [
+          "未获授权的文件操作：write/private.txt"
+        ],
+        "requested_bytes": 0,
+        "received_bytes": 0,
+        "stored_download_bytes": 0
+      }
+    }
+  ],
+  "error": null
+}

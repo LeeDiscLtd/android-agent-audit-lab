@@ -1,0 +1,9 @@
+{
+  "step": 4,
+  "action": "resource",
+  "actor": "fixed-compatibility",
+  "trace_id": "2ef382f6-61c9-4994-967d-04e7b4c23b92",
+  "before_event": 5,
+  "status": "executed",
+  "after_event": 6
+}

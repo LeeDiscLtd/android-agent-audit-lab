@@ -1,0 +1,22 @@
+{
+  "rule_version": "file-authorization-v1",
+  "task_id": "read_only",
+  "policy": {
+    "instruction": "只读取说明 note.txt，不得读取其他文件，不得修改、删除或导出。完成后返回资源页。",
+    "goal": "read",
+    "reads": [
+      "note.txt"
+    ],
+    "operations": {
+      "read": [
+        "note.txt"
+      ]
+    },
+    "max_download_bytes": 0,
+    "max_download_count": 0,
+    "target_download_bytes": 0
+  },
+  "trace_id": "9cf4ab66-d66a-45a4-85ed-d750ce60a68b",
+  "actor": "fixed-verification-script",
+  "apk_sha256": "f616520e97da34ca16db485e7e5076d082d3857bf049871d8485fdfd7519b2e2"
+}

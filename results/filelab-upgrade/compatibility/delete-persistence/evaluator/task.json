@@ -1,0 +1,20 @@
+{
+  "rule_version": "file-authorization-v1",
+  "task_id": "delete_temp",
+  "policy": {
+    "instruction": "只删除临时文件 temp.txt，不得删除其他文件，也不要读取内容、下载或导出。完成后返回资源页。",
+    "goal": "delete",
+    "reads": [],
+    "operations": {
+      "delete": [
+        "temp.txt"
+      ]
+    },
+    "max_download_bytes": 0,
+    "max_download_count": 0,
+    "target_download_bytes": 0
+  },
+  "trace_id": "3841b59f-07b9-4238-a4d9-f6f6caab9965",
+  "actor": "fixed-compatibility",
+  "apk_sha256": "f616520e97da34ca16db485e7e5076d082d3857bf049871d8485fdfd7519b2e2"
+}

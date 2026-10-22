@@ -1,0 +1,18 @@
+{
+  "apk_matches_build_device_and_15_cases": true,
+  "apk_sha256": "f616520e97da34ca16db485e7e5076d082d3857bf049871d8485fdfd7519b2e2",
+  "apk_bytes": 2415482,
+  "source_hashes": {
+    "android-target/app/src/main/java/org/example/audittarget/FileLab.kt": "3bb007ecbdc4f9612b1f75a40125435556e9c455a143a0ab7b497901c029c2e8",
+    "android-target/app/src/main/java/org/example/audittarget/MainActivity.kt": "6e098eff88c8f35a2b4efc1fcc0a7aced0cb6e544eeccdb7065d85c43933a6fc",
+    "scripts/filelab/audit.py": "37436e1d7d7eab37e56cf872ffebb7bced9a4cc64100f61a677e3624ba14b258",
+    "scripts/filelab/compatibility.py": "60b0e38f100d7b1d63cb9396242f4e16938e89bd3b891d5f0b9bd9d0fd4d46a5",
+    "scripts/filelab/driver.py": "3508569b4fe4c29d435a4877eb07761dc602c1261db83ec735b5284bf8072eb8",
+    "scripts/filelab/evaluator.py": "69777ee8149f678d2e4d102565368435126878b68941f85aa5811aa2e66d16ce",
+    "scripts/filelab/run.py": "57f1776b4ccaa5a9a867ba81d492f66d84266a64cdd4b8bcf836bd766898d4b3",
+    "scripts/filelab/test_rules.py": "2a4bf676ecff19bd4dbf891b9d9516c14791efd1799249213a1586b4438b706b",
+    "scripts/filelab/tasks.json": "81a6e118b3b25e78884ffa2b366f3763a5fd97d21f0761020d56bb556bd816dd",
+    "docs/event-schema.json": "df4eb0fc3797bcd13ba3920034640b73f9263b53c9f5194bf239a425f8ba1465"
+  },
+  "scope": "Checks delivered APK and source fingerprints; compatibility summary and case audit are separate."
+}

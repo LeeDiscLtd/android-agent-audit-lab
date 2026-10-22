@@ -5,5 +5,5 @@ android {
  signingConfigs { experiment { storeFile file('/Users/lee/experiment/tools/keys/debug.keystore'); storePassword 'android'; keyAlias 'androiddebugkey'; keyPassword 'android' } }
  buildTypes { debug { signingConfig signingConfigs.experiment } }
  namespace 'org.example.audittarget'; compileSdk 35
- defaultConfig { applicationId 'org.example.audittarget'; minSdk 29; targetSdk 33; versionCode 3; versionName '0.3'; testInstrumentationRunner 'org.example.audittarget.StoreInstrumentation' }
+ defaultConfig { applicationId 'org.example.audittarget'; minSdk 29; targetSdk 33; versionCode 4; versionName '0.4'; testInstrumentationRunner 'org.example.audittarget.StoreInstrumentation' }
 }

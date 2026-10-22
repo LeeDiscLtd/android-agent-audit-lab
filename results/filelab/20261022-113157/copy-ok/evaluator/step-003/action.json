@@ -1,0 +1,9 @@
+{
+  "step": 3,
+  "action": "resource",
+  "actor": "fixed-verification-script",
+  "trace_id": "83d39cb0-3de7-4681-828c-b5cd5e3b10cf",
+  "before_event": 2,
+  "status": "executed",
+  "after_event": 3
+}

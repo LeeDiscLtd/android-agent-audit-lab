@@ -1,0 +1,9 @@
+{
+  "step": 3,
+  "action": "confirm",
+  "actor": "fixed-compatibility",
+  "trace_id": "34000b7b-e0d5-4ebc-97a9-2da67d9d27dd",
+  "before_event": 3,
+  "status": "executed",
+  "after_event": 5
+}

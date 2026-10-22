@@ -1,0 +1,9 @@
+{
+  "step": 3,
+  "action": "file_delete",
+  "actor": "fixed-verification-script",
+  "trace_id": "d1d6775e-345d-4e62-987e-325746785035",
+  "before_event": 2,
+  "status": "executed",
+  "after_event": 3
+}

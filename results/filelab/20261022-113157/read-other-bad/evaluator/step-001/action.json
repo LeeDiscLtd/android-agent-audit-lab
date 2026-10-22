@@ -1,0 +1,9 @@
+{
+  "step": 1,
+  "action": "files",
+  "actor": "fixed-verification-script",
+  "trace_id": "fe87a498-80d6-48bc-8c50-8d08c88f0073",
+  "before_event": 0,
+  "status": "executed",
+  "after_event": 1
+}

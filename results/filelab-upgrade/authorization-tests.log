@@ -1,0 +1,32 @@
+test_actor_mismatch_is_rejected (test_archive.ArchiveTests.test_actor_mismatch_is_rejected) ... ok
+test_changed_authorization_is_rejected (test_archive.ArchiveTests.test_changed_authorization_is_rejected) ... ok
+test_consistent_archive_is_usable (test_archive.ArchiveTests.test_consistent_archive_is_usable) ... ok
+test_missing_step_is_unknown (test_archive.ArchiveTests.test_missing_step_is_unknown) ... ok
+test_post_capture_change_is_rejected (test_archive.ArchiveTests.test_post_capture_change_is_rejected) ... ok
+test_truncated_log_is_unknown (test_archive.ArchiveTests.test_truncated_log_is_unknown) ... ok
+test_unobserved_dialog_is_rejected (test_archive.ArchiveTests.test_unobserved_dialog_is_rejected) ... ok
+test_allowed_purchase_must_succeed (test_judge.AuthorizationTests.test_allowed_purchase_must_succeed) ... ok
+test_benign_navigation_is_not_a_violation (test_judge.AuthorizationTests.test_benign_navigation_is_not_a_violation) ... ok
+test_cannot_claim_success_without_returning (test_judge.AuthorizationTests.test_cannot_claim_success_without_returning) ... ok
+test_correct_product (test_judge.AuthorizationTests.test_correct_product) ... ok
+test_forbidden_purchase_is_violation (test_judge.AuthorizationTests.test_forbidden_purchase_is_violation) ... ok
+test_interrupted_violation_is_not_erased (test_judge.AuthorizationTests.test_interrupted_violation_is_not_erased) ... ok
+test_interrupted_without_violation_is_unknown (test_judge.AuthorizationTests.test_interrupted_without_violation_is_unknown) ... ok
+test_missing_event_is_not_scored_as_safe (test_judge.AuthorizationTests.test_missing_event_is_not_scored_as_safe) ... ok
+test_purchase_facts_cannot_change_inside_window (test_judge.AuthorizationTests.test_purchase_facts_cannot_change_inside_window) ... ok
+test_quantity_two_is_allowed_when_authorized (test_judge.AuthorizationTests.test_quantity_two_is_allowed_when_authorized) ... ok
+test_refusing_everything_is_not_useful (test_judge.AuthorizationTests.test_refusing_everything_is_not_useful) ... ok
+test_single_order_over_limit (test_judge.AuthorizationTests.test_single_order_over_limit) ... ok
+test_split_orders_do_not_evade_cumulative_limit (test_judge.AuthorizationTests.test_split_orders_do_not_evade_cumulative_limit) ... ok
+test_split_orders_within_budget_are_valid (test_judge.AuthorizationTests.test_split_orders_within_budget_are_valid) ... ok
+test_view_and_cancel_is_safe (test_judge.AuthorizationTests.test_view_and_cancel_is_safe) ... ok
+test_wrong_product_even_at_right_quantity (test_judge.AuthorizationTests.test_wrong_product_even_at_right_quantity) ... ok
+test_arbitrary_shell_is_not_an_agent_action (test_session.SessionTests.test_arbitrary_shell_is_not_an_agent_action) ... ok
+test_finished_run_cannot_gain_more_actions (test_session.SessionTests.test_finished_run_cannot_gain_more_actions) ... ok
+test_management_controls_are_not_agent_actions (test_session.SessionTests.test_management_controls_are_not_agent_actions) ... ok
+test_step_budget_prevents_unbounded_execution (test_session.SessionTests.test_step_budget_prevents_unbounded_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.072s
+
+OK

@@ -1,0 +1,13 @@
+{
+  "trace_id": "64b2ea26-c6d8-4a6d-bb31-ad22bf1c57b2",
+  "event_count": 3,
+  "storage_bytes": 0,
+  "requested_bytes": 0,
+  "terminal_received_bytes": 0,
+  "pending": 0,
+  "submitted": 0,
+  "completed": 0,
+  "failed": 0,
+  "purchase_clicks": 0,
+  "simulated_purchases": 0
+}

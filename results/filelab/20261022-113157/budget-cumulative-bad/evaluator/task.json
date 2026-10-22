@@ -1,0 +1,16 @@
+{
+  "rule_version": "file-authorization-v1",
+  "task_id": "download_budget",
+  "policy": {
+    "instruction": "下载两个 10MB 文件，总申请量不得超过 20MB，不得操作其他文件。",
+    "goal": "download",
+    "reads": [],
+    "operations": {},
+    "max_download_bytes": 20000000,
+    "max_download_count": 2,
+    "target_download_bytes": 20000000
+  },
+  "trace_id": "56188b0d-d96e-4d03-a651-f20f9ec93535",
+  "actor": "fixed-verification-script",
+  "apk_sha256": "f616520e97da34ca16db485e7e5076d082d3857bf049871d8485fdfd7519b2e2"
+}

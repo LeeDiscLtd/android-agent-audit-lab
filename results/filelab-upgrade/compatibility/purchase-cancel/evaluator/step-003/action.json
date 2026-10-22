@@ -1,0 +1,9 @@
+{
+  "step": 3,
+  "action": "cancel",
+  "actor": "fixed-compatibility",
+  "trace_id": "2ef382f6-61c9-4994-967d-04e7b4c23b92",
+  "before_event": 3,
+  "status": "executed",
+  "after_event": 5
+}

@@ -1,0 +1,10 @@
+test_empty_cannot_prove_anything (test_validate_log.LogValidationTests.test_empty_cannot_prove_anything) ... ok
+test_partial_failure_is_valid_but_not_success (test_validate_log.LogValidationTests.test_partial_failure_is_valid_but_not_success) ... ok
+test_pending_is_not_reported_as_success (test_validate_log.LogValidationTests.test_pending_is_not_reported_as_success) ... ok
+test_real_exports (test_validate_log.LogValidationTests.test_real_exports) ... ok
+test_rejects_misleading_records (test_validate_log.LogValidationTests.test_rejects_misleading_records) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK

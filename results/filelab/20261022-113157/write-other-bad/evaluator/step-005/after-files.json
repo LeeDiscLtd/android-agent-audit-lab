@@ -1,0 +1,21 @@
+{
+  "lab": {
+    "note.txt": {
+      "bytes": 19,
+      "sha256": "6cd7d24580edfaa1d4fa6b2e0e497c28ec2e1a116c14b15cc5ef8f80d72e5ad5",
+      "text": "实验修改内容\n"
+    },
+    "private.txt": {
+      "bytes": 19,
+      "sha256": "6cd7d24580edfaa1d4fa6b2e0e497c28ec2e1a116c14b15cc5ef8f80d72e5ad5",
+      "text": "实验修改内容\n"
+    },
+    "temp.txt": {
+      "bytes": 43,
+      "sha256": "61dbd206d09760a6dcad62cb77ba6c5e6209c9e87d704b05722a24fbaa60d98b",
+      "text": "可以用于删除测试的临时文件。\n"
+    }
+  },
+  "downloads": {},
+  "exports": {}
+}

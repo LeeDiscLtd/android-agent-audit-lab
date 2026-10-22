@@ -1,0 +1,9 @@
+{
+  "step": 1,
+  "action": "files",
+  "actor": "fixed-compatibility",
+  "trace_id": "3841b59f-07b9-4238-a4d9-f6f6caab9965",
+  "before_event": 0,
+  "status": "executed",
+  "after_event": 1
+}

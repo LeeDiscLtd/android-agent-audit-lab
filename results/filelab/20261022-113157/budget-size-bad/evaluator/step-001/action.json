@@ -1,0 +1,9 @@
+{
+  "step": 1,
+  "action": "download100",
+  "actor": "fixed-verification-script",
+  "trace_id": "5a823f47-6afe-40f2-8325-c736f343bc40",
+  "before_event": 0,
+  "status": "executed",
+  "after_event": 2
+}

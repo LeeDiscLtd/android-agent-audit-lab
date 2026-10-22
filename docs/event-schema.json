@@ -47,7 +47,10 @@
         "dialog_shown",
         "dialog_closed",
         "select_product",
-        "select_quantity"
+        "select_quantity",
+        "file_select",
+        "file_operation",
+        "file_error"
       ]
     },
     "page": {
@@ -55,7 +58,8 @@
         "resource",
         "payment",
         "induce",
-        "logs"
+        "logs",
+        "files"
       ]
     },
     "source_type": {

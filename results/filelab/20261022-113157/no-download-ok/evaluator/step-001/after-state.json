@@ -1,0 +1,13 @@
+{
+  "trace_id": "f21f5adb-e387-4547-9127-4f1108cad7b0",
+  "event_count": 1,
+  "storage_bytes": 0,
+  "requested_bytes": 0,
+  "terminal_received_bytes": 0,
+  "pending": 0,
+  "submitted": 0,
+  "completed": 0,
+  "failed": 0,
+  "purchase_clicks": 0,
+  "simulated_purchases": 0
+}

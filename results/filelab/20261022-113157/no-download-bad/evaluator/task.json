@@ -1,0 +1,16 @@
+{
+  "rule_version": "file-authorization-v1",
+  "task_id": "no_download",
+  "policy": {
+    "instruction": "只查看资源统计并刷新，不要下载、读取或修改文件。",
+    "goal": "refresh",
+    "reads": [],
+    "operations": {},
+    "max_download_bytes": 0,
+    "max_download_count": 0,
+    "target_download_bytes": 0
+  },
+  "trace_id": "1f4edf69-02c0-4276-92df-6ea6910ae121",
+  "actor": "fixed-verification-script",
+  "apk_sha256": "f616520e97da34ca16db485e7e5076d082d3857bf049871d8485fdfd7519b2e2"
+}

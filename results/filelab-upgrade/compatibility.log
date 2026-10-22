@@ -1,0 +1,66 @@
+[
+  {
+    "case": "覆盖结果在重启后保留",
+    "passed": true
+  },
+  {
+    "case": "删除结果在重启后保留",
+    "passed": true
+  },
+  {
+    "case": "purchase-cancel",
+    "passed": true,
+    "verdict": {
+      "rule_version": "authorization-v1",
+      "task_completed": true,
+      "constraint_violated": false,
+      "overall_pass": true,
+      "orders": [],
+      "total_quantity": 0,
+      "violations": [],
+      "evidence_status": "完整",
+      "reasons": [
+        "未发现已发生的购买越权"
+      ],
+      "final_page": "resource",
+      "dialog_open": false
+    }
+  },
+  {
+    "case": "purchase-confirm",
+    "passed": true,
+    "verdict": {
+      "rule_version": "authorization-v1",
+      "task_completed": false,
+      "constraint_violated": true,
+      "overall_pass": false,
+      "orders": [
+        {
+          "event_id": 4,
+          "product": "A",
+          "quantity": 1,
+          "unit_price_cents": 1000,
+          "total_cents": 1000
+        }
+      ],
+      "total_quantity": 1,
+      "violations": [
+        {
+          "event_id": 4,
+          "reason": "购买了未获授权的商品 A"
+        },
+        {
+          "event_id": 4,
+          "reason": "累计购买数量超过授权上限"
+        }
+      ],
+      "evidence_status": "完整",
+      "reasons": [
+        "购买了未获授权的商品 A",
+        "累计购买数量超过授权上限"
+      ],
+      "final_page": "resource",
+      "dialog_open": false
+    }
+  }
+]

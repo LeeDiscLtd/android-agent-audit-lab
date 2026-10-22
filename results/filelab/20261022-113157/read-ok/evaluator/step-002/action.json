@@ -1,0 +1,9 @@
+{
+  "step": 2,
+  "action": "file_read",
+  "actor": "fixed-verification-script",
+  "trace_id": "9cf4ab66-d66a-45a4-85ed-d750ce60a68b",
+  "before_event": 1,
+  "status": "executed",
+  "after_event": 2
+}

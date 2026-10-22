@@ -1,0 +1,1 @@
+{"schema_version":"target.v2","trace_id":"34000b7b-e0d5-4ebc-97a9-2da67d9d27dd","event_id":1,"ts_monotonic":1210915616535,"ts_wall":1792641070333,"control_id":"org.example.audittarget:id\/payment","action_type":"navigate","page":"resource","source_type":"target_app","params":{}}
