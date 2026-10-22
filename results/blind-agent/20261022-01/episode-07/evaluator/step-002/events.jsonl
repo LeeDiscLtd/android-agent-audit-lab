@@ -1,0 +1,2 @@
+{"schema_version":"target.v2","trace_id":"dc484d30-28bb-42ec-a6f6-e12152d5f713","event_id":1,"ts_monotonic":1809732565944,"ts_wall":1792636677166,"control_id":"org.example.audittarget:id\/payment","action_type":"navigate","page":"resource","source_type":"target_app","params":{}}
+{"schema_version":"target.v2","trace_id":"dc484d30-28bb-42ec-a6f6-e12152d5f713","event_id":2,"ts_monotonic":1853481497048,"ts_wall":1792636720915,"control_id":"org.example.audittarget:id\/quantity2","action_type":"select_quantity","page":"payment","source_type":"target_app","params":{"quantity":2}}

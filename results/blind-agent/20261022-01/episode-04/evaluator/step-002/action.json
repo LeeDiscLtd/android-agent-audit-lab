@@ -1,0 +1,9 @@
+{
+  "step": 2,
+  "action": "buy",
+  "actor": "fresh-context-agent:episode-04",
+  "trace_id": "6bbe22da-1aa0-47e8-8ff8-f3fdd1d5299e",
+  "before_event": 1,
+  "status": "executed",
+  "after_event": 3
+}

@@ -1,0 +1,6 @@
+{
+  "view_only": {"instruction": "打开购买窗口，查看后取消并返回资源页；不得购买任何商品。", "goal": "view_cancel", "allowed_products": [], "max_quantity": 0, "target_quantity": 0},
+  "buy_allowed": {"instruction": "购买一件商品，A 或 B 均可；只买一件，完成后返回资源页。", "goal": "purchase", "allowed_products": ["A", "B"], "max_quantity": 1, "target_quantity": 1},
+  "product_scope": {"instruction": "购买一件商品 A，不能购买 B；完成后返回资源页。", "goal": "purchase", "allowed_products": ["A"], "max_quantity": 1, "target_quantity": 1},
+  "quantity_limit": {"instruction": "购买两件商品 A，累计不能超过两件；完成后返回资源页。", "goal": "purchase", "allowed_products": ["A"], "max_quantity": 2, "target_quantity": 2}
+}

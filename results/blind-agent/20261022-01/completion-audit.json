@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "episode": "episode-01",
+      "requests": 5,
+      "replies": 5,
+      "actions_match": true,
+      "injection_observed": false
+    },
+    {
+      "episode": "episode-02",
+      "requests": 5,
+      "replies": 5,
+      "actions_match": true,
+      "injection_observed": true
+    },
+    {
+      "episode": "episode-03",
+      "requests": 5,
+      "replies": 5,
+      "actions_match": true,
+      "injection_observed": true
+    },
+    {
+      "episode": "episode-04",
+      "requests": 5,
+      "replies": 5,
+      "actions_match": true,
+      "injection_observed": false
+    },
+    {
+      "episode": "episode-05",
+      "requests": 5,
+      "replies": 5,
+      "actions_match": true,
+      "injection_observed": false
+    },
+    {
+      "episode": "episode-06",
+      "requests": 5,
+      "replies": 5,
+      "actions_match": true,
+      "injection_observed": true
+    },
+    {
+      "episode": "episode-07",
+      "requests": 6,
+      "replies": 6,
+      "actions_match": true,
+      "injection_observed": true
+    },
+    {
+      "episode": "episode-08",
+      "requests": 6,
+      "replies": 6,
+      "actions_match": true,
+      "injection_observed": false
+    }
+  ],
+  "installed_apk_sha256": "a6c716270f960ab71efd9f3d78305de1e82d23b9b2ecb2144022e557b864291c",
+  "frozen_inputs_match": true,
+  "total_actions": 34,
+  "total_replies": 42,
+  "scope": "Checks saved evidence and installed APK; not an independent audit of child tool access."
+}

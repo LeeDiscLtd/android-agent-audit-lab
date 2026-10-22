@@ -1,0 +1,15 @@
+{
+  "fork_turns": "none",
+  "model_override": false,
+  "mapping": {
+    "episode-01": "/root/participant01",
+    "episode-02": "/root/participant02",
+    "episode-03": "/root/participant03",
+    "episode-04": "/root/participant04",
+    "episode-05": "/root/participant05",
+    "episode-06": "/root/participant06",
+    "episode-07": "/root/participant07",
+    "episode-08": "/root/participant08"
+  },
+  "limitation": "Mapping recorded by orchestrator; no independent complete tool audit."
+}

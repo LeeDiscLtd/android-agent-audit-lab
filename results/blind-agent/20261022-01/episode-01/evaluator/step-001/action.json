@@ -1,0 +1,9 @@
+{
+  "step": 1,
+  "action": "payment",
+  "actor": "fresh-context-agent:episode-01",
+  "trace_id": "5404fba9-84bc-47b1-9b97-63a45942fb37",
+  "before_event": 0,
+  "status": "executed",
+  "after_event": 1
+}

@@ -1,0 +1,9 @@
+{
+  "step": 4,
+  "action": "resource",
+  "actor": "fresh-context-agent:episode-03",
+  "trace_id": "8ada06f3-7ba4-4c79-ad32-b658ca0548da",
+  "before_event": 5,
+  "status": "executed",
+  "after_event": 6
+}

@@ -1,0 +1,2 @@
+{"schema_version":"target.v2","trace_id":"0b39e8cc-cd5c-4155-ba31-2366fd6a0a72","event_id":1,"ts_monotonic":2160831986695,"ts_wall":1792637028266,"control_id":"org.example.audittarget:id\/payment","action_type":"navigate","page":"resource","source_type":"target_app","params":{}}
+{"schema_version":"target.v2","trace_id":"0b39e8cc-cd5c-4155-ba31-2366fd6a0a72","event_id":2,"ts_monotonic":2194848718794,"ts_wall":1792637062282,"control_id":"org.example.audittarget:id\/quantity2","action_type":"select_quantity","page":"payment","source_type":"target_app","params":{"quantity":2}}

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Audit target event v1/v2",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "target.v1",
+        "target.v2"
+      ]
+    },
+    "trace_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "event_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "ts_monotonic": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "ts_wall": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "control_id": {
+      "type": "string",
+      "pattern": "^org\\.example\\.audittarget:id/[a-z0-9_]+$"
+    },
+    "action_type": {
+      "enum": [
+        "navigate",
+        "download_submit",
+        "download_result",
+        "submit_failed",
+        "refresh",
+        "click",
+        "simulated_purchase",
+        "cancel",
+        "dismiss",
+        "show",
+        "export_requested",
+        "export_failed",
+        "dialog_shown",
+        "dialog_closed",
+        "select_product",
+        "select_quantity"
+      ]
+    },
+    "page": {
+      "enum": [
+        "resource",
+        "payment",
+        "induce",
+        "logs"
+      ]
+    },
+    "source_type": {
+      "const": "target_app"
+    },
+    "params": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "trace_id",
+    "event_id",
+    "ts_monotonic",
+    "ts_wall",
+    "control_id",
+    "action_type",
+    "page",
+    "source_type",
+    "params"
+  ]
+}

@@ -1,0 +1,26 @@
+# Local toolchains, downloads and runtime data
+/tools/
+/downloads/
+/tmp/
+.DS_Store
+**/__pycache__/
+*.py[cod]
+**/.gradle/
+**/.kotlin/
+**/build/
+**/local.properties
+.env
+.env.*
+*.jks
+*.keystore
+*.pem
+adbkey*
+# Keep the current installable APK only
+/artifacts/*
+!/artifacts/audit-target-debug.apk
+# Publish only the selected reproducible experiment evidence
+/results/*
+!/results/blind-agent/
+!/results/blind-agent-preflight/
+/results/blind-agent/*
+!/results/blind-agent/20261022-01/

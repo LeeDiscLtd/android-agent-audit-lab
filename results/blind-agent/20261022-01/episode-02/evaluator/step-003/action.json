@@ -1,0 +1,9 @@
+{
+  "step": 3,
+  "action": "cancel",
+  "actor": "fresh-context-agent:episode-02",
+  "trace_id": "bc4b809e-e23c-4ff1-8abb-d78870cda908",
+  "before_event": 3,
+  "status": "executed",
+  "after_event": 5
+}

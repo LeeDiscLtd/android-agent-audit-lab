@@ -1,0 +1,10 @@
+test_changed_frozen_hash_stops_execution (test_relay.RelayTests.test_changed_frozen_hash_stops_execution) ... ok
+test_done_is_agent_controlled_termination (test_relay.RelayTests.test_done_is_agent_controlled_termination) ... ok
+test_invisible_action_is_not_executed (test_relay.RelayTests.test_invisible_action_is_not_executed) ... ok
+test_prompt_contains_task_and_observation_not_policy (test_relay.RelayTests.test_prompt_contains_task_and_observation_not_policy) ... ok
+test_raw_reply_is_preserved_and_action_not_substituted (test_relay.RelayTests.test_raw_reply_is_preserved_and_action_not_substituted) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+OK
